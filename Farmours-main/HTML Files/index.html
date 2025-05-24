@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #lang{
+        height: 2.125rem;
+padding: 0 1.25em;
+font-size: 15px;
+width: 100%;
+border: 2px solid black;
+border-radius: 5px;
+outline: none;
+/* border-top-right-radius: 0; */
+/* border-bottom-right-radius: 0; */
+    }
+        .dropbtn {
+          /* background-color: #04AA6D; */
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+            margin-top: 16px;
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        /* .dropdown:hover .dropbtn {} */
+        
+    
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.jpg" class="logo" alt="Farmours"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="agricom.html">Agri-Shop</a></li>
+                <li><a href="comingsoon.html">Community</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#lda">Contact</a></li>
+                <li><a href="app.html">App</a></li>
+                <!-- <li><a href="app.html">Sign-Up</a></li> -->
+                <li><select name="" id="lang">
+                    <option value="" disabled selected hidden>Language</option>
+                    <option value="1">English</option>
+                    <option value="2">ಕನ್ನಡ</option>
+                    <option value="3">हिंदी</option>
+                    <option value="4">తెలుగు</option></select></li>
+                    <div class="dropdown">
+                        <li><a href="app.html" class="dropbtn"><img src="img\user.png" alt="" id="userp" style="height: 25px; width:25px"></a>
+                        
+                            <div class="dropdown-content" style="float: left;">
+                                <!-- <a href="" style="color: rgb(4, 137, 86); margin-bottom: 3px;"><b>S</b></a> -->
+                                <a href="singup.html">Sign-Up</a>
+                                <a href="signin.html">Log-In</a>
+                              </div></li></div>
+                <!-- <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li> -->
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+        
+        <h2>Growing Tomorrow's</h2>
+        <h1>Harvest Today</h1>
+        
+       <a href="#product1"> <button id="butt"><span>Explore</span></button></a>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="febox">
+            <a href="https://economictimes.indiatimes.com/topic/farmers" target="_blank"><img id="news" src="img/news.png" alt="" ></a>
+            <h6>News Updates</h6>
+        </div>
+        <div class="febox">
+            <a href="https://www.nabard.org/news-article.aspx?id=25&cid=552&nid=160" target="_blank"><img id="mon" src="img/mon.png" alt="" ></a>
+            <h6>Monetary Updates</h6>
+        </div>
+        <div class="febox">
+            <a href="https://www.accuweather.com/en/in/bengaluru/204108/weather-forecast/204108" target="_blank"><img id="weather" src="img/weat.png" alt="" ></a>
+            <h6>Weather Updates</h6>
+        </div>
+        
+        <div class="febox">
+            <img id="sup" src="img/247.png" alt="" href="">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Features</h2>
+        <p>Explore the range</p>
+        <div class="pro-container">
+            <div class="pro">
+                <a href="croppractice.html"><img src="img/croppracs.webp" alt=""></a>
+                <div class="des">
+                    
+                    <h5>Crop Practices</h5>
+                    
+                    
+                </div>
+                <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <a href="cropcalender.html"><img src="img/img3.jpg" alt=""></a>
+                <div class="des">
+                    
+                    <h5>Crop Calendar</h5>
+                    
+                    
+                </div>
+                <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+               <a href="agricom.html"> <img src="img/img4.jpg" alt=""></a>
+                <div class="des">
+                    
+                    <h5>Agri-Commerce</h5>
+                    
+                </div>
+                <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <a href="soiltesting.html"><img src="img/img5.jpg" alt="" style="height: 188px; "></a>
+                <div class="des">
+                    
+                    <h5>Soil Test</h5>
+                    
+                </div>
+                <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+               <a href="satellite.html"><img src="img/img6.jpg" alt=""></a> 
+                <div class="des">
+                    
+                    <h5>Satellite Insights</h5>
+                    
+                </div>
+                <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+               <a href="lens.html"> <img src="img/img7.jpg" alt=""></a>
+                <div class="des">
+                    
+                    <h5>Lens Disease Detection</h5>
+                    
+                </div>
+                <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+               <a href="comingsoon.html"> <img src="img/img9.jpg" alt="" style="height: 184px;" ></a>
+                <div class="des">
+                    
+                    <h5>Land Rentals</h5>
+                    
+                </div>
+                <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+            <div class="pro">
+                <a href="comingsoon.html"> <img src="img/img8.jpg" alt="" ></a>
+                <div class="des">
+                    
+                    <h5>Equipments Rentals</h5>
+                    
+                </div>
+                <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="banner" class="section-m1">
+        <h2 style="color: black;" style="margin-left: -200px;">Flat <span>50% Off</span> on select Products</h2>
+       <a href="agricom.html"> <button class="normal">Explore more</button></a>
+    </section>
+
+    
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+        <h2 style="color: black;">Community</h2>
+        <h3 style="color: rgb(31, 107, 45);">PAN India Connect</h3>
+        
+        <button class="white" style="margin-top: 20px;"><a href="community.html">Learn More</a></button>
+    </div>
+    <div class="banner-box banner-box2">
+        <h2 style="color: black;">Finance</h2>
+        <h3 style="color: rgb(31, 107, 45);">Market Price & Subsidaries</h3>
+        
+        <button class="white"  style="margin-top: 20px;"><a href="finance.html">Learn More</a></button>
+    </div>
+    </section>
+    
+    
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mails about our latest <span>updates.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email Address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1" id="lda">
+        <div class="col">
+            <img src="img/logo.jpg" class="logo" alt="" style="margin-left: -40px;">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Dayananda Sagar University, Bengaluru, Karnataka</p>
+            <p><strong>Phone:</strong> +91 7204904587 </p>
+            <p><strong>Hours:</strong> 10:00 - 20:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <!-- <a href="#">Delivery Information</a> -->
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App </h4>
+            <h4>Coming Soon! </h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/app1.jpg" alt="">
+                <img src="img/play1.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay1.png" alt="">
+            <p>Coming Soon</p>
+        </div>
+        <div class="copyright">
+            <p>Farmours.  </p>
+            <p> All Copyrights Reserved &copy; 2024 </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

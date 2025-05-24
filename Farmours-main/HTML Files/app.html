@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-color: black;
+        }
+        #apsvideo {
+  width: 90vw;
+  margin-top: 5px;
+  margin-left: 60px;
+  margin-right: 5px;
+  height: 80vh;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* Add some content at the bottom of the video/page */
+
+</style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.jpg" class="logo" alt="Farmours"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="agricom.html">Agri-Shop</a></li>
+                <!-- <li><a href="blog.html">Vision</a></li> -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="app.html" class="active">App</a></li>
+                <!-- <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li> -->
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+   <video width="2000" height="700" autoplay id="apsvideo" style="align-items: center; border-radius: 20px;">
+        <source src="img\appvideo.mp4" type="video/mp4">
+      </video>
+</body>
+</html>

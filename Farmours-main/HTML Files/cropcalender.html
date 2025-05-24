@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Calendar</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #cp{
+            height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    /* border-top-right-radius: 0; */
+    /* border-bottom-right-radius: 0; */
+        }
+        option{
+            height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 18px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    /* border-top-right-radius: 0; */
+    /* border-bottom-right-radius: 0; */
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.jpg" class="logo" alt="Farmours"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="agricom.html">Agri-Shop</a></li>
+                <!-- <li><a href="blog.html">Vision</a></li> -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="#lda">Contact</a></li>
+                <li><a href="app.html">App</a></li>
+                <li><a href="croppractice.html" class="active">Crop Calendar</a></li>
+                <!-- <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li> -->
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        </section>
+        <section id="about-head" class="section-p1">
+            <img src="img\img35.png" alt="">
+            <div>
+            <h2 style="margin-bottom: 20px;">Crop Calendars</h2>
+            <p><b>Select Your Region</b></p>
+                <select name="sel" id="cp" onchange=la(this.value) >
+                    <option value="" disabled hidden selected>Select Region</option>
+                    <option value="malenaducrop.html" class="opts">Malenadu</option>               
+                    <option value="tulunaducalender.html" class="opts">Tulu Nadu</option>
+                    <option value="3" class="opts">Uttara Karnataka</option>
+                    <option value="index.html"  class="opts">Dakshina Karnataka</option>
+                </select>
+                <script>
+                    function la(src)
+                    {
+                        window.location=src;
+                    }
+                </script>
+            
+        </div>
+        </section>
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign Up For Newsletters</h4>
+                <p>Get E-mails about our latest <span>updates.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your Email Address">
+                <button class="normal">Sign Up</button>
+            </div>
+        </section>
+        <footer class="section-p1" id="lda">
+            <div class="col">
+                <img src="img/logo.jpg" class="logo" alt="" style="margin-left: -40px;">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong> Dayananda Sagar University, Bengaluru, Karnataka</p>
+                <p><strong>Phone:</strong> +91 7204904587 </p>
+                <p><strong>Hours:</strong> 10:00 - 20:00, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="about.html">About Us</a>
+                <!-- <a href="#">Delivery Information</a> -->
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+            
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col install">
+                <h4>Install App </h4>
+                <h4>Coming Soon! </h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/app1.jpg" alt="">
+                    <img src="img/play1.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay1.png" alt="">
+                <p>Coming Soon</p>
+            </div>
+            <div class="copyright">
+                <p>Farmours.  </p>
+                <p> All Copyrights Reserved &copy; 2024 </p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    </html>
