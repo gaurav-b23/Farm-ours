@@ -1,7 +1,7 @@
- Developed the frontend architecture for Farmours, a smart agriculture web platform,               
-utilizing HTML5, CSS3, and JavaScript to create responsive, mobile-first user interfaces optimized 
-for rural connectivity. Engineered modular UI components and dashboard layouts for crop 
-tracking, weather monitoring, and data visualization features, implementing cross-device 
-compatibility and performance optimization techniques for low-bandwidth environments. 
-Established scalable component architecture and coding standards to facilitate future backend API 
-integration and database connectivity (backend development pending).
+Developed the frontend architecture for Farmours, a smart agriculture web platform,utilizing HTML5, CSS3, and JavaScript to create responsive, mobile-first user interfaces optimized for rural connectivity. Engineered modular UI components and dashboard layouts for crop tracking, weather monitoring, and data visualization features, implementing cross-device compatibility and performance optimization techniques for low-bandwidth environments.Established scalable component architecture and coding standards to facilitate future backend API integration and database connectivity (backend development pending).                    
+
+
+
+
+
+
